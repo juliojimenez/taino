@@ -1,3 +1,3 @@
 # taíno
 
-HTMX, Racket, ClickHouse, and SQLite Stack
+HTMX, Racket, and ClickHouse Stack
