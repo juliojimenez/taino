@@ -1,3 +1,3 @@
-# taíno
-
-HTMX, Racket, ClickHouse, and SQLite Stack
+taino
+=====
+README text here.
