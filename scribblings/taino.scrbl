@@ -1,10 +1,20 @@
 #lang scribble/manual
 @require[@for-label[taino
-                    racket/base]]
+                    racket/base
+                    "../router.rkt"]]
 
-@title{taino}
-@author{juliojimenez}
+@title{Taíno}
+@author{Julio Jimenez}
 
 @defmodule[taino]
 
-Package Description Here
+Taíno is a web development framework. It focuses on returning HTML as a response, making Taíno perfectly suitable for HTMX frontends.
+
+For data-driven web applications, Taíno comes with ClickHouse client functions.
+
+@section{Defining Routes}
+
+@defmodule[taino/router]
+
+@defform[(routes stx)]{Defines routes}
+
