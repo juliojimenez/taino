@@ -1,7 +1,7 @@
 #lang scribble/manual
 @require[@for-label[taino
                     racket/base
-                    "../router.rkt"]]
+                    "../router/routes.rkt"]]
 
 @title{Taíno}
 @author{Julio Jimenez}
