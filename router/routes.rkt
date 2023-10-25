@@ -4,9 +4,7 @@
 
 (define-syntax (routes stx)
   (syntax-case stx ()
-    [(_ ((pattern handler) ...))
-      #'(dispatch-rules
-        ([(pattern) (handler)]
-          ...))]))
+    ((_ ([(pattern) handler] ...))
+      #'(dispatch-rules [(pattern) handler]...))))
 
 (provide routes)
