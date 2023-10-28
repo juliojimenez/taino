@@ -9,4 +9,4 @@
 (define license '(Apache-2.0))
 (define required 
     '(("racket" >= 8.0)
-      ("web-server" >= 1.0)))
+      ("web-server/servlet" >= 1.0)))
