@@ -1,3 +1,3 @@
-# taíno
+# Taíno
 
-HTMX, Racket, and ClickHouse Stack
+HTMX, Racket, and ClickHouse Framework
