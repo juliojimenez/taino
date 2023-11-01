@@ -12,7 +12,7 @@
 (require 
   web-server/servlet-env)
 
-(define (server app [port 80])
+(define (server #:servlet app #:ip [ip "127.0.0.1"] #:port [port 8080])
   (serve/servlet app
-    #:listen-ip "127.0.0.1"
+    #:listen-ip ip
     #:port port))
